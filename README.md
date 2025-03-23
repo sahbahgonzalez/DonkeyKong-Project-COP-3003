@@ -27,6 +27,8 @@ git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git
 Please report any bugs or issues via our GitHub Issue Tracker:  
 https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/issues
 
+All warnings from -Wall and -Wextra have been reviewed and fixed as of commit [SHA]
+
 ## Installation
 
 1. Clone the repository:

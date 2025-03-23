@@ -29,4 +29,12 @@ https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/issues
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git 
+git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git
+
+## Build Instructions
+
+To build the project from source, make sure you have a C++ compiler (like `g++`) installed.
+
+### Option 1: Using Makefile
+```bash
+make 

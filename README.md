@@ -37,4 +37,7 @@ To build the project from source, make sure you have a C++ compiler (like `g++`)
 
 ### Option 1: Using Makefile
 ```bash
-make 
+make
+
+![Test](https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/actions/workflows/test.yml/badge.svg)
+

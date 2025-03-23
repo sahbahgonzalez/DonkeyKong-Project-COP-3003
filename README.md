@@ -2,7 +2,7 @@
 [![OpenSSF Scorecard](https://img.shields.io/badge/OpenSSF%20Scorecard-in%20progress-yellow)](https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/actions)
 
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/10228/badge)](https://bestpractices.coreinfrastructure.org/projects/10228)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/badge)](https://securityscorecards.dev/viewer/?uri=github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003)
+
 
 
 This project is a recreation of the classic Donkey Kong arcade game developed as part of the COP 3003 course. It demonstrates fundamental object-oriented programming (OOP) concepts in Java, including class design, inheritance, encapsulation, and basic game mechanics. The game features core elements such as player movement, obstacles, scoring, and win/loss conditions in a 2D environment. 

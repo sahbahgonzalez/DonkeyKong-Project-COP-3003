@@ -21,6 +21,10 @@ git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git
 
 > All documentation and issue reports should be submitted in English.
 
+## Bug Reports
+Please report any bugs or issues via our GitHub Issue Tracker:  
+https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/issues
+
 ## Installation
 
 1. Clone the repository:

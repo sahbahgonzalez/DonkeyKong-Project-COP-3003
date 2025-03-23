@@ -10,3 +10,5 @@ If you discover a security vulnerability, please report it responsibly.
 - We will respond within **14 days**.
 
 All reports are kept confidential until a fix is released.
+
+For static analysis before any major release run in bash: cppcheck "DonkeyKong COP 3003 Project.cpp"

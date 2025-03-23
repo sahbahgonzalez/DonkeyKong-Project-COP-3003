@@ -1,0 +1,14 @@
+name: Run Tests
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Compile and Run Tests
+      run: |
+        g++ -o test test.cpp
+        ./test

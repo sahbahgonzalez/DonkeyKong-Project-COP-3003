@@ -19,6 +19,8 @@ git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git
 - Collision detection
 - Scoring system
 
+> All documentation and issue reports should be submitted in English.
+
 ## Installation
 
 1. Clone the repository:

@@ -20,6 +20,8 @@ git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git
 - Scoring system
 
 > All documentation and issue reports should be submitted in English.
+> Note: The code is compiled with `-Wall -Wextra -Wpedantic` to catch common issues and enforce safer coding practices.
+
 
 ## Bug Reports
 Please report any bugs or issues via our GitHub Issue Tracker:  

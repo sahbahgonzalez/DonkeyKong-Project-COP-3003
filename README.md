@@ -6,3 +6,8 @@ This is a retro-style Donkey Kong clone built in Python for educational purposes
 ## Feedback and Contributions
 
 To report bugs, request features, or contribute to the project, please use the [Issues page](https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/issues).
+
+### How to Obtain
+You can download or clone this repository:
+```bash
+git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git 

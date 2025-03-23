@@ -1,7 +1,12 @@
+
 # Security Policy
 
 ## Reporting a Vulnerability
 
-If you discover a security issue, please open an issue or contact us directly at [sgonzalez3276@eagle.fgcu.edu].
+If you discover a security vulnerability, please report it responsibly.
 
-We will investigate and resolve the issue as soon as possible.
+- **Send an email to:** [sgonzalez3276@eagle.fgcu.edu] 
+- **Do NOT** open a GitHub issue for security concerns.
+- We will respond within **14 days**.
+
+All reports are kept confidential until a fix is released.

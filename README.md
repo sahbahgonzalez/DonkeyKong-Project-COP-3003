@@ -10,4 +10,17 @@ To report bugs, request features, or contribute to the project, please use the [
 ### How to Obtain
 You can download or clone this repository:
 ```bash
+git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git
+
+## Features
+
+- Donkey Kong level navigation
+- Player movement and physics
+- Collision detection
+- Scoring system
+
+## Installation
+
+1. Clone the repository:
+```bash
 git clone https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003.git 

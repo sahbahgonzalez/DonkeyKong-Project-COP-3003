@@ -1,0 +1,19 @@
+**Requirement**: Provide reference documentation on **inputs** and **outputs** 
+
+
+```markdown
+## Usage
+
+- Run the game using the `main.py` file.
+- Use arrow keys to control the player.
+- The player collects coins and avoids obstacles.
+- Score is displayed in the top corner of the screen.
+
+### Inputs
+- Keyboard controls:
+  - Left/Right arrows: Move player
+  - Spacebar: Jump
+
+### Outputs
+- Score (integer)
+- Game over status

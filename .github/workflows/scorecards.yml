@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: '0 0 * * 0' # weekly
+    - cron: '0 0 * * 0'
 
 jobs:
   analysis:
@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run analysis
-        uses: ossf/scorecard-action@v2
+        uses: ossf/scorecard-action@v1.1.6
 
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v2

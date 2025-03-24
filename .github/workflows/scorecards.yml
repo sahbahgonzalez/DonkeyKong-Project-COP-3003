@@ -1,9 +1,11 @@
 name: Scorecards Supply-chain Security
-
 on:
   push:
+    branches: [main]
+  pull_request:
+    branches: [main]
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: '0 0 * * 0'  # weekly on Sunday
 
 jobs:
   analysis:
@@ -12,19 +14,24 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout code"
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
           persist-credentials: false
-      - name: "Run analysis"
-        uses: ossf/scorecard-action@v2.1.0 
-# or use this if required by GitHub:
-# uses: ossf/scorecard-action@9c5f3efcdbec3ad17e3e96b0b894927a179e2cb7
+
+      - name: Run analysis
+        uses: ossf/scorecard-action@v2.1.6
         with:
           results_file: results.sarif
           results_format: sarif
-      - name: "Upload artifact"
+
+      - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: SARIF file
           path: results.sarif
+
+      - name: Upload to code-scanning
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: results.sarif

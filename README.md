@@ -2,6 +2,8 @@
 [![OpenSSF Scorecard](https://img.shields.io/badge/OpenSSF%20Scorecard-in%20progress-yellow)](https://github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/actions)
 
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/10228/badge)](https://bestpractices.coreinfrastructure.org/projects/10228)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003/badge)](https://securityscorecards.dev/viewer/?repo=github.com/sahbahgonzalez/DonkeyKong-Project-COP-3003)
+
 
 
 

@@ -17,7 +17,9 @@ jobs:
         with:
           persist-credentials: false
       - name: "Run analysis"
-        uses: ossf/scorecard-action@v2
+        uses: ossf/scorecard-action@v2.1.0 
+# or use this if required by GitHub:
+# uses: ossf/scorecard-action@9c5f3efcdbec3ad17e3e96b0b894927a179e2cb7
         with:
           results_file: results.sarif
           results_format: sarif
